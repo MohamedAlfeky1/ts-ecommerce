@@ -5,7 +5,7 @@
  * @param {number} [max=50] - The maximum allowed length of the text before truncation.
  * @returns {string} - The truncated text with '...' appended if it exceeds the max length.
  */
-export function textSlicer(txt: string, max: number = 50) {
+export function textSlicer(txt: string, max: number = 70) {
   if (txt.length >= max) return `${txt.slice(0, max)}...`;
   return txt;
 }
