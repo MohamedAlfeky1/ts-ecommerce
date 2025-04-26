@@ -5,7 +5,6 @@ import CircleColor from "./CircleColor";
 import Image from "./Image";
 import Btn from "./Ui/Btn";
 import Modal from "./Ui/Modal";
-import { productList } from "../data";
 import toast from "react-hot-toast";
 
 interface Iprops {
